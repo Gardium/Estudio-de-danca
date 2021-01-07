@@ -1,0 +1,300 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  color: black;
+}
+body {
+  background-color: #eeee;
+}
+
+header {
+  position: fixed;
+  background-color: #fff;
+  z-index: 101;
+}
+
+.logo img {
+  width: 300px;
+}
+
+ul {
+  list-style: none;
+  width: 100vw;
+}
+.header-link {
+  float: right;
+  padding-top: 40px;
+
+
+}
+.header-link:hover,.active {
+  text-decoration: underline;
+}
+
+li {
+  padding: 10px;
+  font-size: 1rem;
+}
+a {
+  text-decoration: none;
+}
+
+
+
+.header-link a {
+  color: #A85378;
+  padding-right: 20px;
+}
+
+.logo {
+  float: left;
+  margin-left: 25px;
+}
+
+.hero {
+  
+  height: 100vh;
+  text-align: center;
+  color: white;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("../assets/hero.jpg");
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.hero h1 {
+  font-size: 3em;
+}
+
+.hero-text {
+  position: absolute;
+  top: 70%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-size: 2em;
+  width: 100%;
+}
+
+a.hero-text,
+.submit{
+  cursor: pointer;
+  color: white;
+  text-decoration: none;
+  border-radius: 20px;
+  background-color: #f84aabee;
+}
+
+a.hero-text {
+  top: 85%;
+  width: 200px;
+  padding: 10px;
+}
+.cardContainer {
+  text-align: center;
+  margin: 0 auto;
+}
+.card {
+  background-color: #fff;
+  width: 30%;
+  margin: 30px auto;
+  padding: 10px;
+  box-sizing: border-box;
+  display: inline-block;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  font-size: 1.5rem;
+}
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+.card p {
+  margin: 10px;
+  height: 200px;
+  overflow: hidden;
+  text-align: left;
+  margin-top: 20px;
+}
+.card img {
+  width: 100%;
+  max-height: 500px;
+  
+}
+input {
+  padding: 1em;
+  font-size: 2em;
+  border-radius: 20px;
+  border: 1px solid #0004;
+}
+
+
+.newslater {
+  margin: 40px 5% ;
+  font-size: 0.5em;
+}
+.newslater h2,
+.newslater form {
+  display: inline-block;
+  text-transform: uppercase;
+  max-width: 45%;
+  color: #000a;
+}
+
+
+ 
+
+.newslater form {
+  float: right;
+  margin-right: 5%;
+  
+}
+.newslater h2 {
+  margin-top: 25px;
+
+}
+
+.developedby {
+  float: left;
+}
+
+.icon-footer {
+  float: right;
+  height: 30px;
+}
+
+footer ul {
+  width: 100vw;
+}
+footer ul li {
+  padding: 0 5%;
+  font-size: 1.2em;
+}
+footer {
+  display: inline-block;
+  border: 1px solid #ccc;
+  background-color: #fff;
+  padding: 10px;
+  position: absolute;
+}
+
+.wpp {
+  position: fixed;
+  width: 60px;
+  height: 60px;
+  bottom: 74px;
+  right: 30px;
+  border-radius: 50px;
+  background-image: url("../assets/wpp.png");
+  background-size: cover;
+  border-radius: 50px;
+  box-shadow: 2px 2px 3px #999;
+}
+
+@media screen and (max-width: 1100px) {
+  header ul li {
+    font-size: 1em;
+    padding: 0;
+  }
+  .header-link {
+    margin-left: 10px;
+  }
+
+
+}
+
+
+
+@media screen and (max-width: 510px) {
+  h1.hero-text {
+      font-size: 2em;
+  }
+
+
+
+ 
+}
+@media screen and (max-width: 876px) {
+  header ul {
+    text-align: center;
+    background: #ee9ca7; /* fallback for old browsers */
+    background: -webkit-linear-gradient(
+      to left,
+      #ffdde1,
+      #ee9ca7
+    ); /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(
+      to left,
+      #ffdde1dd,
+      #ee9ca1dd
+    ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  }
+
+  header ul li a {
+    color: white;
+
+  }
+  li.logo {
+    background-color: #fff;
+    margin: 0;
+  }
+  .header-link,
+  .logo {
+    float: none;
+  }
+
+  .header-link {
+    border-bottom: 1px solid #ee9ca1;
+    width: 80vw;
+    margin: auto;
+    border-radius: 30px;
+    padding-bottom: 20px;
+    font-size: 1rem;
+    text-transform: uppercase;
+  }
+  header {
+    position: relative;
+    margin: 0;
+  }
+
+  .hero-text {
+    top: 130%;
+  }
+
+  a.hero-text {
+    top: 150%;
+  }
+
+  .card {
+    width: 100vw;
+    margin-bottom: 10%;
+  }
+  .newslater input {
+    width: 100%;
+    padding: 10px;
+    margin-left: 10px;
+  }
+
+  .newslater input[type="email"] {
+    width: 90%;
+    margin-bottom: 10px;
+  }
+
+  .wpp{
+      bottom:180px;
+
+  }
+
+  .developedby{
+      padding-top: 5px;
+      font-size: 1em;
+  }
+  body{
+      width:100vw;
+  }
+}
+
+

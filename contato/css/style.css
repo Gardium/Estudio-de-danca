@@ -1,0 +1,321 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    color: black;
+  }
+  body {
+    background-color: #eeee;
+  }
+  
+  header {
+    position: fixed;
+    background-color: #fff;
+    z-index: 101;
+  }
+  
+  .logo img {
+    width: 300px;
+  }
+  
+  ul {
+    list-style: none;
+    width: 100vw;
+  }
+  .header-link {
+    float: right;
+    padding-top: 40px;
+  
+  
+  }
+  .header-link:hover, .active {
+    text-decoration: underline;
+  }
+  
+  li {
+    padding: 10px;
+    font-size: 1rem;
+  }
+  a {
+    text-decoration: none;
+  }
+  
+  .header-link a {
+    color: #A85378;
+    padding-right: 20px;
+  }
+  
+  .logo {
+    float: left;
+    margin-left: 25px;
+  }
+  
+
+  .hero {
+  
+    height: 100vh;
+    text-align: center;
+    margin: 0 auto;
+    color: white;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+      url("../../assets/hero.jpg");
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    position: relative;
+  }
+
+
+
+
+
+
+  
+.container {
+    width: 50%;
+    position: absolute;
+    top: 60%;
+    right: 50%;
+    transform: translate(50%,-50%)
+    
+  }
+  
+  .form-contact {
+    width: 100%;
+  }
+  
+  .form-contact-input {
+    width: 100%;
+    color: #292929;
+    font-size: 1em;
+    background-color: #E9E9E9;
+    border: 1px solid #E9E9E9;
+    border-radius: 5px;
+    height: 40px;
+    margin-bottom: 20px;
+    text-indent: 20px;
+
+  }
+  
+  .form-contact-textarea {
+    width: 100%;
+    color: #292929;
+    font-size: 18px;
+    background-color: #E9E9E9;
+    border: 1px solid #E9E9E9;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    height: 200px;
+    margin-bottom: 20px;
+    border-bottom: 1px solid #ccc;
+    border-left: 1px solid #ccc;
+    text-indent: 20px;
+    padding-top: 16px;
+    padding-left: 0;
+    padding-right: 0;
+  }
+  
+  .form-contact-button {
+    width: 100%;
+    font-size: 18px;
+    border-radius: 4px;
+    color: #fff;
+    height: 40px;
+    margin-bottom: 20px;
+    cursor: pointer;
+    background:  #f84aab88;
+    display: block;
+    border: none;
+    border-bottom: 1px solid #500707;
+    border-right: 1px solid #500707;
+    
+  }
+  
+  .form-contact-button:hover {
+    opacity: 1;
+  }
+  
+
+
+  
+.newslater {
+    margin: 40px 5% ;
+    font-size: 0.5em;
+  }
+  .newslater h2,
+  .newslater form {
+    display: inline-block;
+    text-transform: uppercase;
+    max-width: 45%;
+    color: #000a;
+  }
+  
+  
+   
+  
+  .newslater form {
+    float: right;
+    margin-right: 5%;
+    
+  }
+  .newslater h2 {
+    margin-top: 25px;
+  
+  }
+
+
+  .submit{
+    cursor: pointer;
+    color: white;
+    text-decoration: none;
+    border-radius: 20px;
+    background-color: #f84aabee;
+
+  
+      
+  }
+
+
+  .newslater   input {
+    padding: 1em;
+    font-size: 2em;
+    border-radius: 20px;
+    border: 1px solid #0004;
+  }
+
+  
+  .developedby {
+    float: left;
+  }
+  
+  .icon-footer {
+    float: right;
+    height: 30px;
+  }
+  
+  footer ul {
+    width: 100vw;
+  }
+  footer ul li {
+    padding: 0 5%;
+    font-size: 1.2em;
+  }
+  footer {
+    display: inline-block;
+    border: 1px solid #ccc;
+    background-color: #fff;
+    padding: 10px;
+    position: absolute;
+  }
+  
+  .wpp {
+    position: fixed;
+    width: 60px;
+    height: 60px;
+    bottom: 74px;
+    right: 30px;
+    border-radius: 50px;
+    background-image: url("../../assets/wpp.png");
+    background-size: cover;
+    border-radius: 50px;
+    box-shadow: 2px 2px 3px #999;
+  }
+  
+  
+@media screen and (max-width: 1100px) {
+    header ul li {
+      font-size: 1em;
+      padding: 0;
+    }
+    .header-link {
+      margin-left: 10px;
+    }
+
+
+  
+  
+  }
+  
+  
+
+  @media screen and (max-width: 876px) {
+    header ul {
+      text-align: center;
+      background: #ee9ca7; /* fallback for old browsers */
+      background: -webkit-linear-gradient(
+        to left,
+        #ffdde1,
+        #ee9ca7
+      ); /* Chrome 10-25, Safari 5.1-6 */
+      background: linear-gradient(
+        to left,
+        #ffdde1dd,
+        #ee9ca1dd
+      ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    }
+  
+    header ul li a {
+      color: white;
+  
+    }
+    li.logo {
+      background-color: #fff;
+      margin: 0;
+    }
+    .header-link,
+    .logo {
+      float: none;
+    }
+  
+    .header-link {
+      border-bottom: 1px solid #ee9ca1;
+      width: 80vw;
+      margin: auto;
+      border-radius: 30px;
+      padding-bottom: 20px;
+      font-size: 1rem;
+      text-transform: uppercase;
+    }
+    header {
+      position: relative;
+      margin: 0;
+    }
+   
+
+  
+  
+ 
+    .newslater input {
+      width: 100%;
+      padding: 10px;
+      margin-left: 10px;
+    }
+  
+    .newslater input[type="email"] {
+      width: 90%;
+      margin-bottom: 10px;
+    }
+  
+    .wpp{
+        bottom:165px;
+  
+    }
+  
+    .developedby{
+        padding-top: 5px;
+        font-size: 1em;
+    }
+    body{
+        width:100vw;
+    }
+
+    .container{
+      width: 80%;
+      
+    }
+  }
+  
+  
+  

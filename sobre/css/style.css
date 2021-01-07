@@ -1,0 +1,298 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  color: black;
+}
+body {
+  background-color: #eeee;
+}
+
+header {
+  position: fixed;
+  background-color: #fff;
+  z-index: 101;
+}
+
+.logo img {
+  width: 300px;
+}
+
+ul {
+  list-style: none;
+  width: 100vw;
+}
+.header-link {
+  float: right;
+  padding-top: 40px;
+
+
+}
+.header-link:hover, .active {
+  text-decoration: underline;
+}
+
+li {
+  padding: 10px;
+  font-size: 1rem;
+}
+a {
+  text-decoration: none;
+}
+
+.header-link a {
+  color: #A85378;
+  padding-right: 20px;
+}
+
+.logo {
+  float: left;
+  margin-left: 25px;
+}
+
+.hero {
+  
+  height: 100vh;
+  text-align: center;
+  color: white;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("../../assets/hero.jpg");
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+
+
+
+
+.submit{
+  color: white;
+  cursor: pointer;
+  text-decoration: none;
+  border-radius: 20px;
+  background-color: #f84aabee;
+}
+
+.cardContainer {
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  right: 50%;
+  transform: translate(50%,-50%);
+  width: 100%
+}
+.card {
+  background-color: #fff;
+  width: 50%;
+  height: 70%;
+  margin: 30px 0;
+  padding: 50px;
+  box-sizing: border-box;
+  display: inline-block;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  font-size: 1rem;
+  
+}
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+.card p {
+  margin: 10px;
+  overflow: hidden;
+  text-align: left;
+  margin-top: 20px;
+  
+}
+.card img {
+  width: 200px;
+  
+  
+  
+}
+input {
+  padding: 1em;
+  font-size: 2em;
+  border-radius: 20px;
+  border: 1px solid #0004;
+}
+
+
+.newslater {
+  margin: 40px 5% ;
+  font-size: 0.5em;
+}
+.newslater h2,
+.newslater form {
+  display: inline-block;
+  text-transform: uppercase;
+  max-width: 45%;
+  color: #000a;
+}
+
+
+ 
+
+.newslater form {
+  float: right;
+  margin-right: 5%;
+  
+}
+.newslater h2 {
+  margin-top: 25px;
+
+}
+
+.developedby {
+  float: left;
+}
+
+.icon-footer {
+  float: right;
+  height: 30px;
+}
+
+footer ul {
+  width: 100vw;
+}
+footer ul li {
+  padding: 0 5%;
+  font-size: 1.2em;
+}
+footer {
+  display: inline-block;
+  border: 1px solid #ccc;
+  background-color: #fff;
+  padding: 10px;
+  position: absolute;
+}
+
+.wpp {
+  position: fixed;
+  width: 60px;
+  height: 60px;
+  bottom: 74px;
+  right: 30px;
+  border-radius: 50px;
+  background-image: url("../../assets/wpp.png");
+  background-size: cover;
+  border-radius: 50px;
+  box-shadow: 2px 2px 3px #999;
+
+
+}
+
+
+@media screen and (max-width: 510px) {
+
+  .card p {
+    margin-top: 100%;
+    font-size: 1.1em;
+  }
+}
+@media screen and (max-width: 1100px) {
+  header ul li {
+    font-size: 1em;
+    padding: 0;
+  }
+  .header-link {
+    margin-left: 10px;
+  }
+  .card{
+    width: 90%;
+    
+  }
+
+
+
+
+}
+
+
+@media screen and (max-width: 876px) {
+  header ul {
+    text-align: center;
+    background: #ee9ca7; /* fallback for old browsers */
+    background: -webkit-linear-gradient(
+      to left,
+      #ffdde1,
+      #ee9ca7
+    ); /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(
+      to left,
+      #ffdde1dd,
+      #ee9ca1dd
+    ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  }
+
+  header ul li a {
+    color: white;
+
+  }
+  li.logo {
+    background-color: #fff;
+    margin: 0;
+  }
+  .header-link,
+  .logo {
+    float: none;
+  }
+
+  .header-link {
+    border-bottom: 1px solid #ee9ca1;
+    width: 80vw;
+    margin: auto;
+    border-radius: 30px;
+    padding-bottom: 20px;
+    font-size: 1rem;
+    text-transform: uppercase;
+  }
+  header {
+    position: relative;
+    margin: 0;
+  }
+  .cardContainer{
+  top: 110%;
+ 
+  }
+.card p{
+  overflow: hidden;
+}
+
+  .newslater input {
+    width: 100%;
+    padding: 10px;
+    margin-left: 10px;
+  }
+
+  .newslater input[type="email"] {
+    width: 90%;
+    margin-bottom: 10px;
+  }
+
+  .wpp{
+      bottom:180px;
+
+  }
+
+  .developedby{
+      padding-top: 5px;
+      font-size: 1em;
+  }
+  body{
+      width:100vw;
+      
+  }
+  .oculto{
+    display:none;
+  }
+
+}
+.card p {
+  margin-top: 5%
+}
+
+
