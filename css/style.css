@@ -1,0 +1,79 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  color: black;
+}
+
+#myNav a.nav-link {
+  color: #a85378;
+  font-size: 1.2rem;
+  transition: transform 0.5s;
+  transform: translateY(0) scale(1);
+}
+
+#myNav a.nav-link:hover {
+  color: rgba(209, 110, 153, 0.582);
+  transform: translateY(10px) scale(1.2);
+}
+
+.logo img {
+  width: 200px;
+}
+
+.carousel-item {
+  max-height: 70vh;
+}
+
+.carousel-caption > h1.text-white {
+  text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.295);
+  font-weight: 600;
+  font-size: 3rem;
+}
+
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+.newslater {
+  font-size: 0.4em;
+}
+
+.icon-footer {
+  height: 30px;
+}
+
+.wpp {
+  position: fixed;
+  width: 60px;
+  height: 60px;
+  bottom: 130px;
+  right: 30px;
+  border-radius: 50px;
+  background-image: url("../assets/wpp.png");
+  background-size: cover;
+  border-radius: 50px;
+  box-shadow: 2px 2px 3px #999;
+}
+
+.developedby {
+  padding-top: 5px;
+  font-size: 1em;
+}
+
+.newslater h2,
+.newslater input {
+  font-size: 2.8em;
+}
+.btn {
+  background-color: #f84aabee !important;
+}
+
+@media (max-width: 768px) {
+  .carousel-caption > h1.text-white {
+    text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.295);
+    font-size: 1.3rem;
+  }
+  .newslater {
+  }
+}
