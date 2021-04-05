@@ -1,781 +1,352 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
   <head>
     <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Estudio de Dança Priscila Bonácio</title>
+    <link rel="shortcut icon" href="./assets/favicon.ico" type="image/x-icon" />
+    <link rel="stylesheet" href="./css/style.css" />
     <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css"
       rel="stylesheet"
-      integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+      integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z"
       crossorigin="anonymous"
     />
-    <style>
-      /* div {
-        font-size: 2rem;
-        width: 100px;
-      } */
-
-      /* img {
-        width: 300px;
-      } */
-      .hide {
-        display: none;
-      }
-
-      .w300 {
-        max-width: 300px;
-      }
-
-      .pgbr-carousel-item {
-        height: 300px;
-      }
-    </style>
-    <title>Bootstrap</title>
   </head>
   <body>
-    <!-- <div class="btn btn-info text-white m-5">enviar</div> -->
 
-    <!-- CORES -->
-    <!-- <button class="btn btn-success">OK</button>
-    <button class="btn btn-light">Cancelar</button>
-    <div class="text-muted">muted</div>
-    <div class="text-primary">primary</div>
-    <div class="text-success">success</div>
-    <div class="text-info">info</div>
-    <div class="text-warning">warning</div>
-    <div class="text-danger">danger</div>
-    <div class="text-white bg-dark">white</div>
-    <div class="text-dark">dark</div>
-    <div class="text-light">light</div> -->
 
-    <!-- Titulos e Display -->
-
-    <!-- <h1>Titulo h1</h1>
-    <h2>Titulo h2</h2>
-    <h3>Titulo h3</h3>
-    <h4>Titulo h4</h4>
-    <h5>Titulo h5</h5>
-    <h6>Titulo h6</h6>
-
-    <p class="h1">titulo h1</p>
-    <p class="h2">titulo h2</p>
-    <p class="h3">titulo h3</p>
-    <p class="h4">titulo h4</p>
-    <p class="h5">titulo h5</p>
-    <p class="h6">titulo h6</p>
-
-    <p class="display-1">titulo h1</p>
-    <p class="display-2">titulo h2</p>
-    <p class="display-3">titulo h3</p>
-    <p class="display-4">titulo h4</p>
-    <p>titulo h5</p>
-    <p>titulo h6</p> 
-
-    <h3 class="display-4">
-      Curso Desenvolvimento Web
-      <small class="text-muted">Do Zero ao Primeiro Projeto</small>
-    </h3>
--->
-
-    <!-- Padding and Margin -->
-
-    <!-- <div class="bg-info mx-auto">Div</div> -->
-
-    <!-- container -->
-    <!-- <div class="bg-dark">
-      <div class="container text-light">
-        <h1>Titulo</h1>
-        <p>
-          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Accusantium
-          fuga, veniam consequuntur perferendis sapiente maxime laboriosam
-          consectetur molestiae dicta fugit quis at nobis placeat praesentium
-          beatae ullam neque odio. Quo.
-        </p>
-      </div>
-    </div> -->
-    <!-- Display + float -->
-    <!-- 
-    <img
-      class="float-end"
-      src="https://upload.wikimedia.org/wikipedia/commons/8/84/Example.svg"
-      alt=""
-    />
-    <p>
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat illum
-      ducimus sunt quidem incidunt. Quaerat dolorem, sit, perspiciatis doloribus
-      placeat blanditiis sint facilis voluptates exercitationem, aliquam odio id
-      ea ex?
-    </p> -->
-
-    <!-- responsividade -->
-    <!-- 
-    <img
-      class="float-md-end"
-      src="https://upload.wikimedia.org/wikipedia/commons/8/84/Example.svg"
-      alt=""
-    />
-    <p class="d-lg-inline">
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat illum
-      ducimus sunt quidem incidunt. Quaerat dolorem, sit, perspiciatis doloribus
-      placeat blanditiis sint facilis voluptates exercitationem, aliquam odio id
-      ea ex?
-    </p> -->
-    <!-- FLEXBOX -->
-    <!-- <div
-      class="container d-flex justify-content-xl-between align-items-lg-start"
-    >
-      <div class="bg-primary">linha 1</div>
-      <div class="bg-warning align-self-end">linha 2</div>
-      <div class="bg-success">linha 3</div>
-      <div>
-        <div class="bg-info">Linha 4</div>
-        <div class="bg-secondary">Linha 5</div>
-        <div class="bg-dark text-light">Linha 6</div>
-      </div>
-    </div> -->
-
-    <!-- COLUNAS -->
-    <!-- <div class="container">
-      <div class="row justify-content-between">
-        <div class="col-1 col-md6 bg-dark">Col</div>
-        <div class="col-1 col-md-6 bg-info">Col</div>
-      </div>
-      <div>
-        <div class="col-2 col-md bg-success">Col</div>
-        <div class="col bg-warning">Col</div>
-        <div class="col bg-info">Col</div>
-        <div class="col bg-danger">Col</div>
-      </div>
-      <div class="row">
-        <div class="col-2 bg-success">Col</div>
-        <div class="col-5 bg-dark">Col</div>
-        <div class="col-5 bg-info">Col</div>
-      </div>
-    </div> -->
-    <!-- 
-    <h1>Titulo</h1>
-    <p class="fst-italic fw-bold font-monospace text-">
-      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem harum,
-      dolore fugit at quod ullam reprehenderit earum eius in obcaecati inventore
-      nisi. Beatae dolorem excepturi hic, fugiat eveniet expedita et.
-    </p>
-    <a href="#" class="text-decoration-none">link</a>
-    <ul class="list-unstyled">
-      <li>1</li>
-      <li>2</li>
-      <li>3</li>
-      <li>4</li>
-      <li>5</li>
-    </ul> -->
-    <!-- IMAGEM -->
-    <!-- <div class="text-center">
-      <img
-        class="img-thumbnail img-fluid"
-        src="https://d2yfnz5to9nvdi.cloudfront.net/wp-content/uploads/passagens-aereas-promocao-melhores-destinos-canada-vancouver.jpg"
-        alt=""
-      />
-    </div> -->
-    <!-- Table -->
-    <!-- <table class="table-responsive table table-striped table-hover">
-      <thead class="thead-light">
-        <tr>
-          <th>Titulo</th>
-          <th>Views</th>
-          <th>Likes</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td>Entrei na banheira de Nutella e Olha no que deu</td>
-          <td>10.000</td>
-          <td>7.842</td>
-        </tr>
-        <tr ></tr>
-          <td>Entrei na banheira de Nutella e Olha no que deu</td>
-          <td>10.000</td>
-          <td>7.842</td>
-        </tr>
-        <tr class="table-dark">
-          <td>Entrei na banheira de Nutella e Olha no que deu</td>
-          <td>10.000</td>
-          <td>7.842</td>
-        </tr>
-      </tbody>
-    </table>
-    <p>
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui voluptates
-      eveniet consequatur? Esse numquam perspiciatis nam exercitationem ex in
-      culpa libero placeat nemo accusamus nostrum aut itaque, quidem, sequi
-      dolores.
-    </p> -->
-
-    <!-- ALERT -->
-    <!-- 
-    <div id="err" class="alert alert-danger hide">
-      <strong
-        >Erro : O campo não deve estar vazio
-        <a href="#" class="alert-link">Link</a></strong
-      >
-    </div> -->
-    <!-- 
-    <div id="err" class="alert alert-danger alert-dismissable">
-      <strong
-        >Erro : O campo não deve estar vazio
-        <a href="#" class="alert-link">Link</a></strong
-      >
-      <button class="btn-close text-danger" data-dismiss="alert"></button>
-    </div> -->
-
-    <!-- <input type="email" />
-    <button onClick="enviar()">Cadastrar</button> -->
-
-    <!-- <script>
-      function enviar() {
-        if ($("input")[0].value == "") {
-          $("#err").slideDown(2000);
-        }
-      }
-    </script> -->
-
-    <!-- Buttons -->
-    <!-- 
-    <button class="btn">Basic</button>
-    <button class="btn btn-primary">primary</button>
-    <button class="btn btn-secondary">secondary</button>
-    <button class="btn btn-success">Success</button>
-    <button class="btn btn-info">info</button>
-    <button class="btn btn-warning">warning</button>
-    <button class="btn btn-light">Cancelar</button>
-    <button class="btn btn-danger">danger</button>
-    <button class="btn btn-muted">muted</button>
-    <button class="btn disabled btn-dark">dark</button>
-    <button class="btn btn-light">light</button>
-    <button class="btn btn-white bg-link">Link</button>
-    <button class="btn-outline btn-lg">Basic</button>
-    <hr />
-
-    <button class="btn btn-outline-primary active btn-sm">primary</button>
-    <button class="btn btn-outline-secondary btn-block">secondary</button>
-    <button class="btn btn-outline-success">Success</button>
-    <button class="btn btn-outline-info">info</button>
-    <button class="btn btn-outline-warning">warning</button>
-    <button class="btn btn-outline-light">Cancelar</button>
-    <button class="btn btn-outline-danger">danger</button>
-    <button class="btn btn-outline-muted">muted</button>
-    <button class="btn btn-outline-dark">dark</button>
-    <button class="btn btn-outline-light">light</button>
-    <button class="btn btn-outline-white bg-link">Link</button>
+      <nav class="navbar navbar-expand-md navbar-light w-100 ">
+        <div class="navbar-brand logo ">
+          <a href="/">
+            <img src="./assets/logo.png" alt="Priscila Bonácio" />
+          </a>
+        </div>
   
-  
-  <input type="submit" class="btn btn-success" />
-    <a href="" class="btn btn-primary">Facebook</a>
-    -->
-
-    <!-- button group -->
-    <!-- <div class="btn-group-vertical btn-group-sm">
-      <button type="button" class="btn btn-primary">1</button>
-      <button type="button" class="btn btn-primary">2</button>
-      <button type="button" class="btn btn-primary">3</button>
-      <div class="btn-group btn-group-lg">
-        <button type="button" class="btn btn-primary">1</button>
-        <button type="button" class="btn btn-primary">2</button>
-        <button type="button" class="btn btn-primary">3</button>
-      </div>
-    </div> -->
-
-    <!-- collapse -->
-
-    <!-- <img
-      id="imagem1"
-      class="img-thumbnail img-fluid collapse"
-      src="https://d2yfnz5to9nvdi.cloudfront.net/wp-content/uploads/passagens-aereas-promocao-melhores-destinos-canada-vancouver.jpg"
-      alt=""
-    />
-
-    <button
-      class="btn btn-primary"
-      data-toggle="collapse"
-      data-target="#imagem1"
-    >
-      mostrar
-    </button>
-
-    <div id="div1" class="collapse-show">Teste da teta</div>
-    <button class="btn btn-link" data-toggle="collapse" href="#div1">
-      Condeu
-    </button> -->
-
-    <!-- DropDown -->
-
-    <!-- <div class="container">
-      <div class="btn-group">
-        <button class="btn btn-info">
-          Atividades da casa da putaria do seu zé, quero fudeeeer
-        </button>
         <button
-          class="btn btn-danger dropdown-toggle"
-          data-toggle="dropdown"
-        ></button>
-        <div class="dropdown-menu dropdown-menu-right">
-          <div class="dropdown-header">Outdoor</div>
+          type="button"
+          data-toggle="collapse"
+          data-target="#myNav"
+          class="navbar-toggler  "
+        >
+          <span class="navbar-toggler-icon text-muted"></span>
+        </button>
+  
+        <div id="myNav" class = "collapse navbar-collapse justify-content-end  ">
+  
+        <ul class="navbar-nav   align-items-center justify-content-end ">
 
-          <a class="dropdown-item-text" href="">Atividade1</a>
-          <a class="dropdown-item" href="">Atividade2</a>
-          <div class="dropdown-header">Indoor</div>
+          <li><a class="nav-link mx-3" data-toggle="modal"href="#modalContato">Contato</a></li>
+          <li><a class="nav-link mx-3"   data-toggle="modal"href="#modalOut">Espetáculos</a></li>
+          <li><a class="nav-link mx-3"  data-toggle="modal" href="#modalOut">Instrutores</a></li>
+          <li><a class="nav-link mx-3"  data-toggle="modal" href="#modalSobre">Sobre</a></li>
 
-          <a class="dropdown-item disabled" href="">Atividade3</a>
-          <a class="dropdown-item active" href="">Atividade4</a>
-          <a class="dropdown-item" href="">Atividade5</a>
-        </div>
-      </div>
-    </div> -->
 
-    <!-- CARDs -->
-    <!-- <div class="card-group">
-      <div class="card">
-        <div class="card-img-top">
-          <img
-            id="imagem1"
-            src="https://d2yfnz5to9nvdi.cloudfront.net/wp-content/uploads/passagens-aereas-promocao-melhores-destinos-canada-vancouver.jpg"
-            alt=""
-          />
-        </div>
-        <card-header>
-          <h4 class="card-title">Vancouver</h4>
-        </card-header>
-        <div class="card-body">
-          <div class="card-text">A melhor cidade do Canadians</div>
-        </div>
-        <card-footer>
-          <a href="https://pt.wikipedia.org/wiki/Vancouver" class="card-link"
-            >Saiba mais</a
-          >
-        </card-footer>
-      </div>
-
-      <div class="card">
-        <div class="card-img-top">
-          <img
-            id="imagem1"
-            src="https://d2yfnz5to9nvdi.cloudfront.net/wp-content/uploads/passagens-aereas-promocao-melhores-destinos-canada-vancouver.jpg"
-            alt=""
-          />
-        </div>
-        <card-header>
-          <h4 class="card-title">Vancouver</h4>
-        </card-header>
-        <div class="card-body">
-          <div class="card-text">A melhor cidade do Canadians</div>
-        </div>
-        <card-footer>
-          <a href="https://pt.wikipedia.org/wiki/Vancouver" class="card-link"
-            >Saiba mais</a
-          >
-        </card-footer>
-      </div>
-
-      <div class="card">
-        <div class="card-img-top">
-          <img
-            id="imagem1"
-            src="https://d2yfnz5to9nvdi.cloudfront.net/wp-content/uploads/passagens-aereas-promocao-melhores-destinos-canada-vancouver.jpg"
-            alt=""
-          />
-        </div>
-        <card-header>
-          <h4 class="card-title">Vancouver</h4>
-        </card-header>
-        <div class="card-body">
-          <div class="card-text">A melhor cidade do Canadians</div>
-        </div>
-        <card-footer>
-          <a href="https://pt.wikipedia.org/wiki/Vancouver" class="card-link"
-            >Saiba mais</a
-          >
-        </card-footer>
-      </div>
-    </div> -->
-
-    <!-- ACORDDION -->
-    <!-- <div id="accordion">
-      <div class="card">
-        <div class="card-header">
-          <a class="card-link" data-toggle="collapse" href="#resp1">
-            Sua pergunta nº1
-          </a>
-        </div>
-
-        <div id="resp1" data-parent="#accordion" class="collapse">
-          Sua resposta nº1
-        </div>
-      </div>
-      <div class="card">
-        <div class="card-header">
-          <a class="card-link" data-toggle="collapse" href="#resp2">
-            Sua pergunta nº2
-          </a>
-        </div>
-
-        <div id="resp2" data-parent="#accordion" class="collapse">
-          Sua resposta nº2
-        </div>
-      </div>
-      <div class="card">
-        <div class="card-header">
-          <a class="card-link" data-toggle="collapse" href="#resp3">
-            Sua pergunta nº3
-          </a>
-        </div>
-
-        <div id="resp3" data-parent="#accordion" class="collapse">
-          Sua resposta nº3
-        </div>
-      </div>
-    </div> -->
-
-    <!-- Progress Bar -->
-    <!-- <div class="progress">
-      <div
-        class="progress-bar progress-bar-striped progress-bar-animated bg-success"
-        style="width: 30%"
-      >
-        30%
-      </div>
-    </div>
-
-    <script>
-      let progressBar = document.querySelector(".progress-bar");
-
-      setInterval(() => {
-        let value = Number(progressBar.innerHTML.replace("%", ""));
-
-        if (value < 100) {
-          progressBar.innerHTML = `${value+1}%`;
-          progressBar.style.width = `${value+1}%`;
-        }
-      }, 100);
-    </script> -->
-
-    <!-- Spinner -->
-    <!-- <button class="btn btn-primary disabled">
-      <span class="spinner-border spinner-border-sm"></span>
-      enviando
-    </button> -->
-
-    <!-- List Group -->
-    <!-- <div class="container">
-      <div class="list-group list-group-horizontal">
-        <a href="#" class="list-group-item active">1</a>
-        <a href="#" class="list-group-item disabled">2</a>
-        <a href="#" class="list-group-item list-group-item-success">3</a>
-        <a href="#" class="list-group-item">4</a>
-        <a href="#" class="list-group-item list-group-item-warning">5</a>
-      </div>
-    </div> -->
-
-    <!-- Paginação -->
-
-    <!-- <ul class="pagination justify-content-center">
-      <li class="page-item"><a href="" class="page-link">1</a></li>
-      <li class="page-item"><a href="" class="page-link">2</a></li>
-      <li class="page-item"><a href="" class="page-link">3</a></li>
-      <li class="page-item"><a href="" class="page-link">4</a></li>
-      <li class="page-item"><a href="" class="page-link">5</a></li>
-    </ul>
-    <ul class="breadcrumb">
-      <li class="breadcrumb-item"><a href="">Eletronicos</a></li>
-      <li class="breadcrumb-item"><a href="">Computadores</a></li>
-      <li class="breadcrumb-item"><a href="">Acessorios</a></li>
-      <li class="breadcrumb-item"><a href="">Disco Rigidos</a></li>
-    </ul> -->
-
-    <!-- NAV -->
-    <!-- 
-    <ul class="nav-pills nav nav-justified">
-      <li class="nav-item">
-        <a data-toggle="tab" href="#home" class="nav-link">Home</a>
-      </li>
-      <li class="nav-item">
-        <a data-toggle="tab" href="#price" class="nav-link">Preços</a>
-      </li>
-      <li class="nav-item">
-        <a data-toggle="tab" href="#about" class="nav-link">Sobre</a>
-      </li>
-    </ul>
-
-    <div class="tab-content">
-      <div id="home" class="tab-pane active">
-        <h1>Home</h1>
-      </div>
-      <div id="price" class="tab-pane fade">
-        <h1>Preços</h1>
-      </div>
-      <div id="about" class="tab-pane fade">
-        <h1>Sobre</h1>
-      </div>
-    </div> -->
-
-    <!-- NavBar
-<div class="bg-dark">
-    <nav class="navbar navbar-expand-sm navbar-dark container">
-      <div class="navbar-brand  ">
-        <h1>Logo</h1>
-      </div>
-
-      <button
-        type="button"
-        data-toggle="collapse"
-        data-target="#myNav"
-        class="navbar-toggler"
-      >
-        <span class="navbar-toggler-icon"></span>
-      </button>
-
-      <div id="myNav" class = "collapse navbar-collapse justify-content-end ">
-
-      <ul class="navbar-nav  justify-content-end">
-        <li class="nav-item">
-          <a data-toggle="tab" href="#home" class="nav-link">Home</a>
-        </li>
-        <li class="nav-item">
-          <a data-toggle="tab" href="#price" class="nav-link">Preços</a>
-        </li>
-        <li class="nav-item">
-          <a data-toggle="tab" href="#about" class="nav-link">Sobre</a>
-        </li>
-        <li class="btn btn-primary">Comprar</li>
-      </ul>
-    </nav>
+        </ul>
+      </nav>
   </div>
-</div> -->
-    <!-- Carousel -->
-    <!-- 
-    <div id="mycarousel" class="carousel slide" data-ride="carousel">
-      <ol class="carousel-indicators">
-        <li
-          data-bs-target="#mycarousel"
-          data-bs-slide-to="0"
-          class="active"
-        ></li>
-        <li data-bs-target="#mycarousel" data-bs-slide-to="1"></li>
-        <li data-bs-target="#mycarousel" data-bs-slide-to="2"></li>
-      </ol>
 
-      <div class="carousel-inner">
-        <div class="carousel-item active">
-          <div
-            class="pgbr-carousel-item align-items-center bg-info text-white d-flex justify-content-center"
+
+  <div id="carouselExampleSlidesOnly" class="carousel slide " data-ride="carousel">
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img class="d-block w-100" src="../assets/hero.jpg" alt="First slide">
+        <div class="carousel-caption d-block">
+          <h1 class="text-white">
+            Aulas presencias e online com total cuidados e segurança
+          </h1>
+          <a class="btn text-white" href="mailto:contato@estudiobonacio.com.br"
+            >Agende sua aula Grátis</a
           >
-            Oferta 1
-          </div>
         </div>
-        <div class="carousel-item">
-          <div
-            class="pgbr-carousel-item align-items-center bg-dark text-white d-flex justify-content-center"
+
+      </div>
+      <div class="carousel-item">
+        <img class="d-block w-100" src="https://images.pexels.com/photos/358010/pexels-photo-358010.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="Second slide">
+        <div class="carousel-caption d-block">
+          <h1 class="text-white">
+            Aulas presencias e online com total cuidados e segurança
+          </h1>
+          <a class="btn text-white" href="mailto:contato@estudiobonacio.com.br"
+            >Agende sua aula Grátis</a
           >
-            Oferta 2
-          </div>
-        </div>
-        <div class="carousel-item">
-          <div
-            class="pgbr-carousel-item align-items-center bg-danger text-white d-flex justify-content-center"
-          >
-            Oferta 3
-          </div>
         </div>
       </div>
-      <a href="#mycarousel" data-slide="prev" class="carousel-control-prev">
-        <span class="carousel-control-prev-icon"></span
-          ></a>
-          <a href="#mycarousel" data-slide="next" class="carousel-control-next">
-            <span class="carousel-control-next-icon"></span
-              ></a>
-            </div> -->
-
-    <!-- MODAL -->
-    <!-- 
-    <button data-toggle="modal" data-target="#myModal">Show modal</button>
-    <div class="container">
-      <h1>Titulo</h1>
-      <p>
-        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Excepturi sint
-        nemo quibusdam libero error hic eligendi pariatur, nam, dicta optio
-        mollitia? Necessitatibus quis non ipsam numquam earum quos autem totam.
-        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Praesentium,
-        doloribus cupiditate! Laudantium aut, tempora fuga non autem reiciendis
-        perferendis laboriosam. Veritatis voluptatibus eos doloremque, adipisci
-        dolor beatae commodi quibusdam doloribus. Lorem ipsum dolor sit amet
-        consectetur adipisicing elit. Recusandae explicabo quae sapiente
-        reiciendis deserunt tenetur atque, in nisi iusto eos alias, voluptatem
-        voluptatum tempore quod labore dicta odit ullam cupiditate. Lorem ipsum,
-        dolor sit amet consectetur adipisicing elit. Excepturi sint nemo
-        quibusdam libero error hic eligendi pariatur, nam, dicta optio mollitia?
-        Necessitatibus quis non ipsam numquam earum quos autem totam. Lorem
-        ipsum, dolor sit amet consectetur adipisicing elit. Praesentium,
-        doloribus cupiditate! Laudantium aut, tempora fuga non autem reiciendis
-        perferendis laboriosam. Veritatis voluptatibus eos doloremque, adipisci
-        dolor beatae commodi quibusdam doloribus. Lorem ipsum dolor sit amet
-        consectetur adipisicing elit. Recusandae explicabo quae sapiente
-        reiciendis deserunt tenetur atque, in nisi iusto eos alias, voluptatem
-        voluptatum tempore quod labore dicta odit ullam cupiditate. Lorem ipsum,
-        dolor sit amet consectetur adipisicing elit. Excepturi sint nemo
-        quibusdam libero error hic eligendi pariatur, nam, dicta optio mollitia?
-        Necessitatibus quis non ipsam numquam earum quos autem totam. Lorem
-        ipsum, dolor sit amet consectetur adipisicing elit. Praesentium,
-        doloribus cupiditate! Laudantium aut, tempora fuga non autem reiciendis
-        perferendis laboriosam. Veritatis voluptatibus eos doloremque, adipisci
-        dolor beatae commodi quibusdam doloribus. Lorem ipsum dolor sit amet
-        consectetur adipisicing elit. Recusandae explicabo quae sapiente
-        reiciendis deserunt tenetur atque, in nisi iusto eos alias, voluptatem
-        voluptatum tempore quod labore dicta odit ullam cupiditate. Lorem ipsum,
-        dolor sit amet consectetur adipisicing elit. Excepturi sint nemo
-        quibusdam libero error hic eligendi pariatur, nam, dicta optio mollitia?
-        Necessitatibus quis non ipsam numquam earum quos autem totam. Lorem
-        ipsum, dolor sit amet consectetur adipisicing elit. Praesentium,
-        doloribus cupiditate! Laudantium aut, tempora fuga non autem reiciendis
-        perferendis laboriosam. Veritatis voluptatibus eos doloremque, adipisci
-        dolor beatae commodi quibusdam doloribus. Lorem ipsum dolor sit amet
-        consectetur adipisicing elit. Recusandae explicabo quae sapiente
-        reiciendis deserunt tenetur atque, in nisi iusto eos alias, voluptatem
-        voluptatum tempore quod labore dicta odit ullam cupiditate.
-      </p>
-    </div>
-
-    <div class="modal fade" id="myModal">
-      <div
-        class="modal-dialog modal-sm modal-dialog-centered modal-dialog-scrollable"
-      >
-        <div class="modal-content">
-          <div class="modal-header">
-            <h1>Oferta Imperdivel</h1>
-          </div>
-          <div class="modal-body">
-            <p>
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-              Excepturi sint nemo quibusdam libero error hic eligendi pariatur,
-              nam, dicta optio mollitia? Necessitatibus quis non ipsam numquam
-              earum quos autem totam. Lorem ipsum, dolor sit amet consectetur
-              adipisicing elit. Praesentium, doloribus cupiditate! Laudantium
-              aut, tempora fuga non autem reiciendis perferendis laboriosam.
-              Veritatis voluptatibus eos doloremque, adipisci dolor beatae
-              commodi quibusdam doloribus. Lorem ipsum dolor sit amet
-              consectetur adipisicing elit. Recusandae explicabo quae sapiente
-              reiciendis deserunt tenetur atque, in nisi iusto eos alias,
-              voluptatem voluptatum tempore quod labore dicta odit ullam
-              cupiditate. Lorem ipsum, dolor sit amet consectetur adipisicing
-              elit. Excepturi sint nemo quibusdam libero error hic eligendi
-              pariatur, nam, dicta optio mollitia? Necessitatibus quis non ipsam
-              numquam earum quos autem totam. Lorem ipsum, dolor sit amet
-              consectetur adipisicing elit. Praesentium, doloribus cupiditate!
-              Laudantium aut, tempora fuga non autem reiciendis perferendis
-              laboriosam. Veritatis voluptatibus eos doloremque, adipisci dolor
-              beatae commodi quibusdam doloribus. Lorem ipsum dolor sit amet
-              consectetur adipisicing elit. Recusandae explicabo quae sapiente
-              reiciendis deserunt tenetur atque, in nisi iusto eos alias,
-              voluptatem voluptatum tempore quod labore dicta odit ullam
-              cupiditate. Lorem ipsum, dolor sit amet consectetur adipisicing
-              elit. Excepturi sint nemo quibusdam libero error hic eligendi
-              pariatur, nam, dicta optio mollitia? Necessitatibus quis non ipsam
-              numquam earum quos autem totam. Lorem ipsum, dolor sit amet
-              consectetur adipisicing elit. Praesentium, doloribus cupiditate!
-              Laudantium aut, tempora fuga non autem reiciendis perferendis
-              laboriosam. Veritatis voluptatibus eos doloremque, adipisci dolor
-              beatae commodi quibusdam doloribus. Lorem ipsum dolor sit amet
-              consectetur adipisicing elit. Recusandae explicabo quae sapiente
-              reiciendis deserunt tenetur atque, in nisi iusto eos alias,
-              voluptatem voluptatum tempore quod labore dicta odit ullam
-              cupiditate. Lorem ipsum, dolor sit amet consectetur adipisicing
-              elit. Excepturi sint nemo quibusdam libero error hic eligendi
-              pariatur, nam, dicta optio mollitia? Necessitatibus quis non ipsam
-              numquam earum quos autem totam. Lorem ipsum, dolor sit amet
-              consectetur adipisicing elit. Praesentium, doloribus cupiditate!
-              Laudantium aut, tempora fuga non autem reiciendis perferendis
-              laboriosam. Veritatis voluptatibus eos doloremque, adipisci dolor
-              beatae commodi quibusdam doloribus. Lorem ipsum dolor sit amet
-              consectetur adipisicing elit. Recusandae explicabo quae sapiente
-              reiciendis deserunt tenetur atque, in nisi iusto eos alias,
-              voluptatem voluptatum tempore quod labore dicta odit ullam
-              cupiditate.
-            </p>
-          </div>
-          <div class="modal-footer">
-            <div class="btn btn-success">BUY NOW</div>
-          </div>
+      <div class="carousel-item">
+        <img class="d-block w-100" src="https://images.pexels.com/photos/3775566/pexels-photo-3775566.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="Third slide">
+        <div class="carousel-caption d-block">
+          <h1 class="text-white">
+            Aulas presencias e online com total cuidados e segurança
+          </h1>
+          <a class="btn text-white" href="mailto:contato@estudiobonacio.com.br"
+            >Agende sua aula Grátis</a
+          >
         </div>
-      </div>
-    </div> -->
-
-    <!-- TOOLTIP -->
-    <!-- <div class="container d-flex justify-content-center mt-5 p-5">
-      <a
-        href="https://programadorbr.com/dev-web"
-        data-toggle="tooltip"
-        data-placement="top"
-        title="Teu cu na minha rola minha cu na sua rola"
-        >programador BR</a
-      >
-    </div> -->
-    <!--     
-    <div class="container d-flex justify-content-center mt-5 p-5">
-      <a
-        href="#"
-        data-trigger="hover"
-        data-toggle="popover"
-        data-placement="top"
-        title="Teu cu na minha rola "
-        data-content="minha cu na sua rola"
-        >programador BR</a
-      >
-    </div> -->
-    <div class="container justify-content-center mt-5 p-5">
-      <div id="mybutton" class="btn btn-primary">Show Toast</div>
-      <div id="mybutton2" class="btn btn-danger">Hide Toast</div>
-      <div class="toast" data-autohide="false">
-        <div class="toast-header"><h1>Titulo</h1></div>
-        <div class="toast-body"><p>Um texto para recordar</p></div>
       </div>
     </div>
+  </div>
+<div class="container-fluid bg-light">
+    <div class="card-group">
+      <a  data-toggle="modal" href="#imgModal1"  class="card m-4">
+        <img src="./assets/instrutoras.jpg" alt="Turma de Ballet" />
+        <div class="card-body">  
+          <p class="card-text"> Instrutoras certificadas prontas para fazer você suar, queimar,
+            curtir, dançar.
+            <strong
+              >Aulas de Ballet,Dança Criativa,Jazz,Sapateado,Dança conteporânea,
+              stilleto, Zumba Fitness e outras...</strong
+            ></p>
+        </div>
+      </a>
 
-    <!-- JS, Popper.js, and jQuery -->
-    <script
-      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
-      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
-      integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
-      integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
-      crossorigin="anonymous"
-    ></script>
+      <a data-toggle="modal" href="#imgModal2" class="card m-4">
+        <img src="./assets/dança do ventre.jpg" alt="Turma de Ballet" />
+        <div class="card-body">
+         
+          <p class="card-text">  Turmas de Dança do ventre com matriculas abertas venha e faça sua
+            matricula
+            <strong>e vem balançar o esqueleto com a gente </strong></p>
+        </div>
+      </a>
 
-    <!-- <script>
-      $(document).ready(() => {
-        $('[data-toggle="tooltip"]').tooltip();
-      });
-    </script> -->
-    <!-- <script>
-      $(document).ready(() => {
-        $('[data-toggle="popover"]').popover();
-      });
-    </script> -->
-    <script>
-      $(document).ready(() => {
-        $("#mybutton").click(() => {
-          $(".toast").toast("show");
-        });
-      });
-      $(document).ready(() => {
-        $("#mybutton2").click(() => {
-          $(".toast").toast("hide");
-        });
-      });
-    </script>
-    <script src="./script.js"></script>
+      
+      <a  data-toggle="modal" href="#imgModal3"  class="card m-4">
+        <img src="./assets/ballet-infantil2.jpg" alt="Turma de Ballet" />
+        <div class="card-body">
+         
+          <p class="card-text">          Nossas Turmas de Ballet infantil estão com matriculas abertas e são
+            ministradas de segunda á sexta as 17:30.
+            <strong>O horário ideal para sua pequena dançar após a aula </strong></p>
+        </div>
+      </a>
+    </div>
+
+  
+
+    <section class="newslater d-md-flex justify-content-between align-items-end mx-5 pr-md-5">
+      <h2>Assine nossa agenda de eventos para não perder nenhum espetáculo</h2>
+
+  
+
+
+      <form
+        action="https://gmail.us7.list-manage.com/subscribe/post?u=bd5d548e39d8703da709208fd&amp;id=1bfe8a9a75"
+        method="post"
+        id="mc-embedded-subscribe-form"
+        name="mc-embedded-subscribe-form"
+        class="validate d-flex "
+        target="_blank"
+        novalidate
+      >
+        <input
+          type="email"
+          value=""
+          name="EMAIL"
+          class="required email form-control"
+          id="mce-EMAIL"
+          placeholder="Digite seu e-mail"
+        />
+        <input type="submit" class="submit btn text-white " value="Assinar" />
+      </form>
+    </section>
+  </div>
+
+
+
+<footer cl>
+
+    <ul class="nav  d-md-flex justify-content-center justify-content-md-between align-items-end mx-5">
+
+<div class="">
+
+  <li class="developedby">Made with ❤️ by Edgard araujo</li>
+</div>
+
+  <div class="d-flex">
+
+    <li>
+        <a class= "nav-link" href="https://www.instagram.com/oisouoed/"
+          ><img class="icon-footer" src="./assets/insta.png" alt="instagram"
+        /></a>
+      </li>
+      <li>
+        <a class= "nav-link" href="https://www.linkedin.com/in/edgard-araujo-3a6950151/"
+          ><img
+            class="icon-footer"
+            src="./assets/linkedin.png"
+            alt="Linkedin"
+        /></a>
+      </li>
+      <li>
+        <a class= "nav-link" href="https://github.com/Gardium"
+          ><img class="icon-footer" src="./assets/github.png" alt="Youtube"
+        /></a>
+      </li>
+    </div>  
+
+    </ul>
+
+ 
+
+    <a
+      href="https://api.whatsapp.com/send?phone=5521990906691&text=Oi%2C%20vamos%20dan%C3%A7ar%3F%F0%9F%92%83"
+      class=" wpp"
+      target="_blank"
+    >
+    </a>
+  </footer>
+
+
+
+         <!-- MODALS -->
+
+         <!-- images -->
+         <div id="imgModal1" class="modal fade " tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+          <div class="modal-dialog modal-dialog-centered modal-xl">
+            <div class="modal-content bg-light  d-flex flex-row align-items-center pr-5 pl-0">
+              
+              <img class="p-0 col-8 m-0" src="./assets/instrutoras.jpg">
+            
+              <div class=" col-5  text-white d-flex flex-column ">
+                
+                <img class="p-md-5 mb-5 col-12" src="../assets/logo.png" alt="Priscila Bonácio" />
+                
+                <p  class="p-5"  data>
+                  Instrutoras certificadas prontas para fazer você suar, queimar,
+                  curtir, dançar.
+                    Aulas de Ballet,Dança Criativa,Jazz,Sapateado,Dança conteporânea,
+                    stilleto, Zumba Fitness e outras...Instrutoras certificadas prontas para fazer você suar, queimar,
+                    curtir, dançar.
+                   
+                </p>
+                </div>
+            </div>
+          </div>
+        </div>
+        <div id="imgModal2" class="modal fade " tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+          <div class="modal-dialog modal-dialog-centered modal-xl">
+            <div class="modal-content bg-light  d-flex flex-row align-items-center pr-5 pl-0">
+              
+              <img class="p-0 col-8" src="./assets/dança do ventre.jpg">
+              <div class=" col-5  text-white d-flex flex-column ">
+                
+                <img class="p-md-5 mb-5 col-12" src="../assets/logo.png" alt="Priscila Bonácio" />
+            
+              <p class="p-5  ">Turmas de Dança do ventre com matriculas abertas venha e faça sua
+                matricula
+               e vem balançar o esqueleto com a gente </p>
+          
+                </p>
+            </div>
+          </div>
+          </div>
+        </div>
+        <div id="imgModal3" class="modal fade " tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+          <div class="modal-dialog modal-dialog-centered modal-xl">
+            <div class="modal-content bg-light  d-flex flex-row align-items-center pr-5 pl-0">
+              
+              <img class="p-0 col-8" src="./assets/ballet-infantil2.jpg">
+            
+              <div class=" col-5  text-white d-flex flex-column ">
+                
+                <img class="p-md-5 mb-5 col-12" src="../assets/logo.png" alt="Priscila Bonácio" />
+
+              <p class="p-5  "> Nossas Turmas de Ballet infantil estão com matriculas abertas e são
+                ministradas de segunda á sexta as 17:30.
+                O horário ideal para sua pequena dançar após a aula
+                </p>
+            </div>
+            </div>
+          </div>
+        </div>
+  
+<!-- NAV -->
+
+
+        <div id="modalContato" class="modal fade " tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+          <div class="modal-dialog modal-dialog-centered modal-lg">
+            <div class="modal-content px-3 py-5  p-md-5">
+
+              <form>
+                <div class="form-row">
+                  <div class="form-group col-12">
+                    <input type="text" class="form-control" id="inputName" placeholder="Nome">
+                  </div>
+                  <div class="form-group col-12">
+                    <input type="email" class="form-control" id="inputEmail" placeholder="Email">
+                  </div>
+                </div>
+                <div class="form-group">
+                  <input type="text" class="form-control" id="inputTel" placeholder="Telefone">
+                </div>
+                <div class="form-group">
+                  <textarea class="form-control" name="conteudo" placeholder="Deixe uma mensagem" rows="10"></textarea>
+
+                </div>
+
+                <button type="submit" class="btn btn-primary">Enviar</button>
+              </form>
+
+
+             
+            </div>
+          </div>
+        </div>
+        <div id="modalSobre" class="modal fade " tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+          <div class="modal-dialog modal-dialog-centered modal-lg">
+            <div class="modal-content  d-flex flex-columns align-items-center ">
+              
+              <p class="p-md-5 mt-5 col-12 ">
+                Aprendemos, lutamos, crescemos juntos... Pais, alunos, professores,
+                amigos, simpatizantes da dança... Obgada a tds pela dedicação, amor e
+                confiança... Sou muita grataaa por tudo!
+           
+                O Ensino de Dança Priscila Bonácio é um espaço voltado para as várias
+                modalidades de dança, onde todas as idades são bem vindas e acolhidas.
+          
+                Todos Nós estamos muito ansiosos para recebermos sua visita Lorem,
+                ipsum dolor sit amet consectetur adipisicing elit. Similique, id nemo.
+                Cupiditate, illum ad! Ex, officia. Nisi mollitia placeat ratione quos,
+                optio enim quia magni cumque impedit, excepturi in deserunt.
+              </p>
+              
+                <img class="p-md-5 mb-5 col-8" src="../assets/logo.png" alt="Priscila Bonácio" />
+            </div>
+          </div>
+        </div>
+        <div id="modalOut" class="modal fade " tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+          <div class="modal-dialog modal-dialog-centered modal-lg">
+            <div class="modal-content  d-flex flex-columns align-items-center justify-content-center ">
+              
+              <img class=" col-8 " src="../assets/embreve.jpg" alt="Priscila Bonácio" />
+              <img class=" mb-5 col-4" src="../assets/logo.png" alt="Priscila Bonácio" />
+            </div>
+          </div>
+        </div>
+
+
+        
+
+  <script
+  src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+  integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+  crossorigin="anonymous"
+></script>
+<script
+  src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+  integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+  crossorigin="anonymous"
+></script>
+<script
+  src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+  integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+  crossorigin="anonymous"
+></script>
+
+<script>
+
+
+</script>
   </body>
+ 
 </html>
